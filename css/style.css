@@ -20,29 +20,60 @@
 /* layout */
 
 
-.header {
+.header-p {
     width: 100%;
     height: 100px;
     background-color: #E579E6;
 }
 
+/* MAIN */
 
 .banner {
     width: 100%;
     height: 250px;
+    margin-top: 20px;
 }
 
 .top {
     background-color:#E1D67A;
 }
 
-.bottom {
-    background-color: #ABCFE7;
+.bot {
+    background-color: #0186FF;
     }
+
+.title {
+    width: 100%;
+    height: 60px;
+    background-color: #ABCFE7;
+}
+
+.sidebar {
+    width: 30%;
+    height: 100px;
+    background-color: #ABCFE7;
+}
+
+/* .content {
+    width:calc(60%-20px);
+    height: 250%;
+    background-color: #ABCFE7;
+    float:left;
+} */
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
 
 .footer {
     display: inline-block;
     width: 100%;
     height: 50px;
     background-color: #8801FE;
+    margin-top: 10px;
 }
